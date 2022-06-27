@@ -1,0 +1,52 @@
+header{
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px 0px;
+    align-items: center;
+    /**desfumado*/
+    background: #76767634;
+    box-shadow: 0 8px 32px 0 #1f268738;
+    backdrop-filter: blur( 9px );
+    -webkit-backdrop-filter: blur( 9px );
+    border-radius: 0px 0px 20px 20px;
+}
+.logo{
+    width: 20%;
+    padding-left: 20px;
+ 
+}
+.nav{
+    width: 40%;
+}
+.navBar{
+    display: flex; 
+    justify-content: space-around;
+    list-style: none;
+    font-size: 25px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.navBar li a{
+    text-decoration: none;
+    color: black;
+}
+.login{
+    display: flex;
+    width: 30%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+.login a img{
+    padding-right: 20px;
+}
+.login p{
+    border: 2px solid black;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
